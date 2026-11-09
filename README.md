@@ -81,7 +81,3 @@ python -m unittest discover -s tests -v
 5. Repetir hasta vaciar la cola. Si faltan vértices, el grafo tiene un ciclo.
 
 Para un grafo dirigido acíclico, el tiempo es **O(|V| + |E|)**, ya que cada vértice entra y sale de la cola una vez y cada arista se recorre una vez. El espacio del algoritmo es **O(|V| + |E|)** por las listas de adyacencia, los grados y la cola. La generación de un MP4 requiere trabajo adicional por cada fotograma, independiente de la complejidad del algoritmo.
-
-## Antes de entregar
-
-Editar `configuracion.json` con los nombres de los integrantes, generar el MP4 en alta calidad y subir el código al repositorio de GitHub. El video y el informe se entregan por separado según las indicaciones del curso.
